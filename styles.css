@@ -30,27 +30,27 @@
 }
 
 /* ===== HEADER ===== */
-header {
+.header {
   padding: var(--padding-base);
   background-color: var(--color-fondo-claro);
 }
 
-header h1 {
+.header__title {
   font-size: 28px;
 }
 
-header nav {
+.header__nav {
   display: flex;
   align-items: center;
   gap: 15px;
 }
 
-header nav a {
+.header__link {
   text-decoration: none;
   color: var(--color-negro);
 }
 
-header nav button {
+.header__button {
   background-color: var(--color-fondo-claro);
   color: var(--color-negro);
   border: 1px solid var(--color-negro);
@@ -59,11 +59,11 @@ header nav button {
   cursor: pointer;
 }
 
-header nav button:last-of-type {
+.header__button:last-of-type {
   display: none;
 }
 
-header nav button:hover {
+.header__butto:hover {
   background-color: var(--color-negro);
   color: var(--color-blanco);
 }
@@ -75,11 +75,11 @@ header nav button:hover {
   background-color: var(--color-fondo-oscuro);
 }
 
-.hero p {
+.hero_paragraph {
   margin: 20px 0;
 }
 
-.hero button {
+.hero_button {
   padding: 10px 20px;
   border: 1px solid var(--color-negro);
   background-color: var(--color-negro);
@@ -89,7 +89,7 @@ header nav button:hover {
   margin: 10px 0;
 }
 
-.hero button:hover {
+.hero_button:hover {
   background-color: transparent;
   color: var(--color-negro);
 }
